@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Page tiltle </title>
+</head>
+
+<body style="background-color:blue;"></body>
+	<font color="white">
+		<h1 align= "center"><big>Antonio Barrafato</big></h1>
+	</font>
+	
+	<hr></hr>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=antonio.barrafato18%40alumni.loyola.ca&amp;color=%2329527A" style="border:solid 1px #777" 
+width="800" height="600" frameborder="0" scrolling="no">
+</iframe>
+
+</body>
+</html>
