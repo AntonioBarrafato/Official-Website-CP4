@@ -1,61 +1,58 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title> Page tiltle </title>
+<title> Page title </title>
 </head>
 
-<body style="background-color:blue;">
+<body style="background-color:yellow;">
 	
 	
-	<font color="white">
+	<font color="black">
 		<h1 align= "center"><big>Antonio Barrafato</big></h1>
 	</font>
 	
 	<hr></hr>
 
 
-		<table>
-
+		<table align="right" border="1" height="300" width="400">
+		
+			<caption><b>OCTOBER</b></caption>
+			
 			<tr>
 
-				<th>Sun <th>Mon <th>Tue <th>Wed <th>Thu <th>Fri <th>Sat
+				<th>Sun</th> <th>Mon</th> <th>Tue</th> <th>Wed</th> <th>Thu</th> <th>Fri</th> <th>Sat</th>
 	
 			</tr>
 
 			<tr>
 
-				<td>1 <td>2 <td>3 <td>4 <td>5 
+				<td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>  
 
 			</tr>
 
 			<tr>
 
-				<td>6 <td>7 <td>8 <td>9 <td>10
+				<td>8</td> <td>9</td> <td>10</td> <td>11</td> <td>12</td> <td>13</td> <td>14</td> 
 
 			</tr>
 
 			<tr>
 
-				<td>11 <td>12 <td>13 <td>14 <td>15
+				 <td>15</td><td>16</td> <td>17</td> <td>18</td> <td>19</td>  <td>20</td> <td>21</td>
 	
 			</tr>
 
 			<tr>
 
-				 <td>16 <td>17<td>18 <td>19 <td>20 
+				 <td>22</td> <td>23</td> <td>24</td><td>25</td> <td>26</td> <td>27</td> <td>28</td> 
 			</tr>
 
 			<tr>
 
-				<td>21 <td>22 <td>23 <td>24 <td>25 
+				 <td>29</td> <td>30</td> 
 
 			</tr>
 			
-			<tr>
-				<td>26 <td>27 <td>28 <td>29 <td>30 
-				
-			</tr>
-
+		
 		</table>
 		
 </body>
