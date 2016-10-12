@@ -9,14 +9,53 @@ h1 {
 }
 
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: Verdana}
 
+
+/* THE TIMER STARTS HERE*/
+
+body{
+    text-align: center;
+	font-family: Verdana;
+	font-weight: 100;
+}
+
+/*this is the font for the timer*/
+#clockdiv{
+    font-family: Verdana;
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+}
+/*this is the 1st background for the timer*/
+#clockdiv > div{
+    padding: 12px;
+    border-radius: x;
+    background: green;
+    display: inline-block;
+}
+/*second background color*/
+#clockdiv div > span{
+    padding: 30px;
+    border-radius: 7px;
+    background: blue;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* CALENDAR STARTS HERE*/
 /* Month header */
 .month {
 	
 	text-align: center;
     padding: 70px 25px;
-    width: 100%;
+    width: 550px;
     background: green;
 }
 
@@ -50,11 +89,12 @@ body {font-family: Verdana, sans-serif;}
     margin: 0;
     padding: 10px 0;
     background-color:blue;
+	width: 600px;
 }
 
 .weekdays li {
     display: inline-block;
-    width: 13.6%;
+    width: 13%;
     color: white;
     text-align: center;
 }
@@ -64,14 +104,15 @@ body {font-family: Verdana, sans-serif;}
     padding: 20px 0;
     background: blue;
     margin: 0;
+	width: 600px;
 }
 
 .days li {
     list-style-type: none;
     display: inline-block;
-    width: 13.6%;
+    width: 13%;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size:12px;
     color:white;
 }
@@ -82,4 +123,3 @@ body {font-family: Verdana, sans-serif;}
     background: green;
     color: white !important
 }
-
