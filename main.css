@@ -1,10 +1,10 @@
 body {
-	background-color: yellow;
-	color: black;
+	background-color: green;
+	color: white;
 }
 
 h1 {
-	color: black;
+	color: white;
 	text-align: center;
 }
 
@@ -12,114 +12,19 @@ ul {list-style-type: none;}
 body {font-family: Verdana}
 
 
-/* THE TIMER STARTS HERE*/
-
-body{
-    text-align: center;
-	font-family: Verdana;
-	font-weight: 100;
+/* where my schedule starts*/
+table, th, td{
+	width: 50%;
+	margin-left: 50%;
+	margin-right:0%;
+	color: white;
+	border: 1px solid white;
+	font-weight: bold;
 }
 
-/*this is the font for the timer*/
-#clockdiv{
-    font-family: Verdana;
-    color: white;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 15px;
-}
-/*this is the 1st background for the timer*/
-#clockdiv > div{
-    padding: 12px;
-    border-radius: x;
-    background: green;
-    display: inline-block;
-}
-/*second background color*/
-#clockdiv div > span{
-    padding: 30px;
-    border-radius: 7px;
-    background: blue;
-    display: inline-block;
-}
-
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-}
-
-/* CALENDAR STARTS HERE*/
-/* Month header */
-.month {
-	
-	text-align: center;
-    padding: 70px 25px;
-    width: 550px;
-    background: green;
-}
-
-/* Month list */
-.month ul {
-    margin: 0;
-    padding: 0;
-}
-
-.month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-/* Previous button inside month header */
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-/* Weekdays (Mon-Sun) */
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color:blue;
-	width: 600px;
-}
-
-.weekdays li {
-    display: inline-block;
-    width: 13%;
-    color: white;
-    text-align: center;
-}
-
-/* Days (1-31) */
-.days {
-    padding: 20px 0;
-    background: blue;
-    margin: 0;
-	width: 600px;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13%;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size:12px;
-    color:white;
-}
-
-/* Highlight the "current" day */
-.days li .active {
-    padding: 5px;
-    background: green;
-    color: white !important
+p {
+	color: white;
+	text-align: right;
+	font-weight: bold;
+	font-size: 17px;
 }
