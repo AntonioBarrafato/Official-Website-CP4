@@ -13,6 +13,11 @@ h2 {
 	text-align:left;
 }
 
+a{
+	color: yellow;
+}
+
+
 ul {list-style-type: none;}
 body {font-family: Verdana}
 
