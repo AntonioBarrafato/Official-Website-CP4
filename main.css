@@ -9,12 +9,22 @@ h1 {
 }
 
 h2 {
-	font-size: 16px;
-	text-align:left;
+	font-size: 13px;
+	position: absolute; 
+	bottom: 0; 
+	width: 99.2%; 
+	text-align: right;
 }
 
 a{
 	color: yellow;
+}
+
+p {
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 
@@ -23,19 +33,17 @@ body {font-family: Verdana}
 
 
 /* where my schedule starts*/
-/* hello*/
+
 table, th, td{
-	width: 50%;
-	margin-left: 50%;
-	margin-right:0%;
 	color: white;
 	border: 1px solid white;
-	font-weight: bold;
+	font-size:14px;
+	width:50px;
 }
 
-p {
-	color: white;
-	text-align: right;
-	font-weight: bold;
-	font-size: 17px;
+iframe{
+	width:550px;
+	height:500px;
+	border: solid 2px #777; 
 }
+
