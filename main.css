@@ -11,28 +11,31 @@ h1 {
 .color{
 	font-size: 13px;
 	position: absolute; 
-	bottom: 0; 
-	width: 99.2%; 
+	bottom: 95px;
+	width:99.2%;	
 	text-align: right;
+	font-weight: bold;
 }
 
 .color2{
 	font-size: 13px;
+	position: absolute; 
+	bottom: 70px;
+	width:99.2%;	
 	text-align: right;
-	width:99.2%;
-	bottom: 0;
-	position:absolute;
+	font-weight: bold;
 }
 
+.color3{
+	font-size: 13px;
+	position: absolute; 
+	bottom: 45px;
+	width:99.2%;	
+	text-align: right;
+	font-weight: bold;
+}
 a{
 	color: yellow;
-}
-
-p {
-	color: white;
-	text-align: left;
-	font-weight: bold;
-	font-size: 13px;
 }
 
 
@@ -44,8 +47,14 @@ body {font-family: Verdana}
 
 table, th, td{
 	color: white;
-	border: 1px solid white;
 	font-size:14px;
-	width:50px;
+	width: 50px;
+	bottom:-25px;
+	position:relative;
+}
+/*ends here*/
+
+iframe{
+	border-color: white;
 }
 
