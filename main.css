@@ -1,13 +1,13 @@
 body {
-	background-color: green;
+	background-color: blue;
 	color: white;
 }
 
 h1 {
-	color: white;
+	color: red;
 	text-align: center;
 }
-
+/* these class and position the links for the different websites */
 .color{
 	font-size: 13px;
 	position: absolute; 
@@ -35,9 +35,10 @@ h1 {
 	text-align: right;
 	font-weight: bold;
 }
+/* */
 
 a{
-	color: yellow;
+	color: red;
 }
 
 
@@ -48,7 +49,7 @@ body {font-family: Verdana}
 /* where my schedule starts*/
 
 table, th, td{
-	color: white;
+	color: red;
 	font-size:14px;
 	width: 50px;
 	bottom:-25px;
@@ -56,7 +57,10 @@ table, th, td{
 }
 /*ends here*/
 
+/* this helps style the iframe */
 iframe{
-	border-color: white;
+	border-color: red;
+	width: 625px;
+	height: 500px;
 }
 
