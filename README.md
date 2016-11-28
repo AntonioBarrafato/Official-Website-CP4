@@ -6,5 +6,4 @@ with on the website.
 
 I have completed everything that I want to do: a nav bar with a dropdown, a sportnet page, a schedule, and a social media section.
 
-i want to put a feed of the buses near by that tell you what time they come at.
-
+I want to put a feed of the buses near by that tell you what time they come at. I also want to put a login so that you can have access to your own schedule by just typing it in.
