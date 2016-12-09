@@ -1,11 +1,12 @@
 body {
 	background-color: yellow;
-	color: blue;
+	color: black;
 }
 
 h1 {
-	color: blue;
+	color: black;
 	text-align: center;
+	font-weight: bold;
 }
 
 h2{
@@ -23,16 +24,28 @@ p{
 .center{
 	text-align:center;
 	font-weight: bold;
-	color: blue; 
+	color:  black; 
 	font-size: 15px;
 }
+
+.copyright{
+	font-size: 12px;
+	font-weight: bold;
+	bottom: -10px;
+	position: absolute;
+	background-color: green;
+	color: black;
+}
+
+
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: green;
 }
 li{
 	 float: left;
@@ -40,7 +53,8 @@ li{
 
 li a, .dropbtn {
     display: inline-block;
-    color: yellow;
+    color:  black;
+	font-weight: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,7 +65,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: blue;
+    background-color: green;
 }
 
 li.dropdown {
@@ -61,20 +75,20 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0000FF;
+    background-color: green;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    color: yellow;
+    color:  black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #0000FF}
+.dropdown-content a:hover {background-color: green}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -94,25 +108,25 @@ li.dropdown {
 /* */
 
 a{
-	color: blue;
+	color:  black;
 }
 
 /* where my schedule starts*/
 
 table, th, td{
-	color: blue;
+	color:  black;
 	font-size:14px;
 	width: 100%;
 	text-align:center;
 	padding-left: 25px;
 	padding-right: 25px;
-	border: 1px solid blue;
+	border: 1px solid  black;
 }
 /*ends here*/
 
 /* this helps style the iframe */
 iframe{
-	border-color: blue;
+	border-color:  black;
 	width: 100%;
 	height: 625px;
 }
@@ -131,8 +145,8 @@ iframe{
 
 /* Set a style for all buttons */
 .submitbutton {
-    background-color: #0000FF;
-    color: #FFD700;
+    background-color: green;
+    color:  black;
     padding: 14px 20px;
     margin: 8px;
     border: none;
@@ -149,6 +163,24 @@ iframe{
 /* The "Forgot password" text */
 .psw {
     padding-top: 16px;
-	background-color: yellow;
 }
+
+
+.lower{
+	position: absolute;
+	bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
