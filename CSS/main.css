@@ -38,6 +38,20 @@ img{
 	height: 300px;
 }
 
+.lower{
+	position: absolute;
+	bottom: 35px;
+}
+
+.size{
+	font-size: 17px;
+}
+
+.time{
+	color: #42f450;
+	font-size: 15px;
+}
+
 .center{
 	text-align:center;
 	font-weight: bold;
