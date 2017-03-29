@@ -19,3 +19,19 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
+
+function login(){
+	var usernamee = "AntonioB"
+	var passwordd = "antonio918"
+	var user = prompt("please enter your username!");
+	var pass = prompt("please enter your password!");
+	
+	if (user === usernamee){
+		if (pass === passwordd){
+			alert("Welcome "+ usernamee +" ")
+	}else{
+		alert("Wrong Username")
+	}else{
+		alert("Wrong Password")
+	}
+}
