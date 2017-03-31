@@ -29,9 +29,11 @@ function login(){
 	if (user === usernamee){
 		if (pass === passwordd){
 			alert("Welcome "+ usernamee +" ")
+			document.getElementById("Usernamee").innerHTML = "Welcome" + " " + usernamee; 
+		}else{
+			alert("WRONG PASSWORD");
+		}
 	}else{
-		alert("Wrong Username")
-	}else{
-		alert("Wrong Password")
-	}
+		alert("WRONG USERNAME");
+		}
 }
