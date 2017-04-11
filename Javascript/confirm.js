@@ -23,24 +23,23 @@ function checkTime(i) {
 /** this is what makes the login work **/
 function login(){
 	/** these are the variables **/
-	var usernamee = "AntonioB"
-	var passwordd = "antonio918"
+	var Arrayuser = ["user1", "user2", "user3", "AntonioB"]
+	var Arraypass = ["pass1", "pass2", "pass3", "antonio918"]
 	var user = prompt("please enter your username!");
 	var pass = prompt("please enter your password!");
 	/** this just says if the username and password match the variable, it tells 
 		the user welcome and displays your username at the top of thw page **/
-	if (user === usernamee){
-		if (pass === passwordd){
+	
+	for (var i = 0; i < Arrayuser.length; i++ ){
+		if((user === Arrayuser[i]) & (pass === Arraypass[i])){			
 			alert("Welcome "+ usernamee +" ")
 			document.getElementById("Usernamee").innerHTML = "Welcome" + " " + usernamee; 
-		}
-			else{
+		else{
 		/** if the password id wrong it says wrong password **/
 			alert("WRONG PASSWORD");
-		}
-		}	else{
+		}else{
 		/** if the username is wrong, it says wrong username **/
 			alert("WRONG USERNAME");
 		}
+	}
 }
-
