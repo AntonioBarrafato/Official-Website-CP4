@@ -1,13 +1,9 @@
 /** this is what makes the login work **/
 function login(){
 	/** these are the variables **/
-<<<<<<< HEAD
 	var userarray = ["user1", "user2", "user3", "AntonioB", "Sacha"]
 	var passarray = ["pass1", "pass2", "pass3", "antonio918", "Mancuso"]
-=======
-	var userarray = ["user1", "user2", "user3", "AntonioB", "Hello"]
-	var passarray = ["pass1", "pass2", "pass3", "antonio918", "12345"]
->>>>>>> origin/master
+
 	var user = prompt("please enter your username!");
 	var pass = prompt("please enter your password!");
 	
